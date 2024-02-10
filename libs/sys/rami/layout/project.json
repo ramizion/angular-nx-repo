@@ -1,0 +1,26 @@
+{
+  "name": "layout",
+  "$schema": "../../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/sys/rami/layout/src",
+  "prefix": "layout-rami",
+  "tags": [],
+  "projectType": "library",
+  "targets": {
+    "build": {
+      "executor": "@nx/angular:ng-packagr-lite",
+      "outputs": ["{workspaceRoot}/dist/{projectRoot}"],
+      "options": {
+        "project": "libs/sys/rami/layout/ng-package.json"
+      },
+      "configurations": {
+        "production": {
+          "tsConfig": "libs/sys/rami/layout/tsconfig.lib.prod.json"
+        },
+        "development": {
+          "tsConfig": "libs/sys/rami/layout/tsconfig.lib.json"
+        }
+      },
+      "defaultConfiguration": "production"
+    }
+  }
+}

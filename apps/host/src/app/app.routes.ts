@@ -1,4 +1,5 @@
 import { Route } from '@angular/router';
+import { AppComponent } from './app.component';
 
 export const appRoutes: Route[] = [
   {
@@ -7,6 +8,6 @@ export const appRoutes: Route[] = [
   },
   {
     path: '',
-    loadChildren: () => import('remote1/Routes').then((m) => m.remoteRoutes),
+    component: AppComponent
   },
 ];

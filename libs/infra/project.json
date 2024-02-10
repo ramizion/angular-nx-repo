@@ -1,0 +1,9 @@
+{
+  "name": "infra",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/infra/src",
+  "prefix": "sys2",
+  "tags": [],
+  "projectType": "library",
+  "targets": {}
+}

@@ -15,6 +15,9 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@angular-monorepo/infra": ["libs/infra/src/index.ts"],
+      "@angular-monorepo/layout": ["libs/sys/rami/layout/src/index.ts"],
+      "@angular-monorepo/sys2": ["libs/sys/sys2/src/index.ts"],
       "remote1/Routes": ["apps/remote1/src/app/remote-entry/entry.routes.ts"],
       "remoteapp1/Routes": [
         "app/remoteapp1/src/app/remote-entry/entry.routes.ts"

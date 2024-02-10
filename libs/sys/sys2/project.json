@@ -1,0 +1,9 @@
+{
+  "name": "sys2",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/sys/sys2/src",
+  "prefix": "sys2",
+  "tags": [],
+  "projectType": "library",
+  "targets": {}
+}
